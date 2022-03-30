@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato&family=Rubik:wght@300&display=swap');
+
+H1 {
+	color: #f6bdb8;
+	font-family: 'Abril Fatface', cursive;
+	front-size: 32;	
+}
+
+H2{
+color: #ed695a;
+}
+
+H3{
+color:gray ;	
+font-family: ;
+}
+
+strong{
+color: gray;
+}
+
+body{
+font-family: 'Lato', sans-serif;
+background-color:rgba(246, 189, 184, 0.15);
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+div{
+	background-color: white;
+    padding: 48px;
+    margin: 16px auto;
+    text-align: center;
+    width: 700px;
+    border-radius: 6px;
+    box-shadow: 7px 5px 1px #80808045;
+}
+.img-circle{
+	height: 150px;
+	width: 150px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.img-circle2{
+	height: 80px;
+	width: 80px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+.btn-blue{
+	background-color: #ed695a;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	border-radius: 6px;
+	margin: 0 auto;
+	display: block;
+	width: 35%;
+	text-align: center;
+}
+
+.btn-blue:hover{
+background: whitesmoke;
+border: 1px solid #ed695a;
+color:#f6bdb8;
+transition: 1s;
+}
