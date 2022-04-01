@@ -71,3 +71,17 @@ border: 1px solid #ed695a;
 color:#f6bdb8;
 transition: 1s;
 }
+
+@media (min-width:  576px) {
+  .div{
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width:  768px) {
+  .div{
+    grid-template-columns: 1fr;
+  }
+}
+@media (min-width:  1200px) {}
+@media (min-width:  1400px) {}
